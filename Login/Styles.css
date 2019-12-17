@@ -38,7 +38,7 @@
   
   .formulario-login input {
     height: 30px; /*le da el largo a las cajas y botones*/
-    border-radius: 20px;
+    border-radius: 50px;/* redondea los bordes*/
  
   }
 
@@ -46,6 +46,8 @@
   .formulario-login button {
     height: 34px; /*le da el largo a las cajas y botones*/
     border-radius: 50px;/* redondea los bordes*/
+    color: #FFFFFF;
+    background: lightblue;
   }
 
 
@@ -65,7 +67,7 @@
   }
 
   .caja-login h1 {
-    color: gray;
+    color: #5AD2AE;
 
 }
 
