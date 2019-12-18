@@ -1,0 +1,48 @@
+body {
+margin: 0;
+border: 5px solid red;
+}
+main{
+    display: block;
+}
+.cabecera-principal{
+
+border: 3px solid #ff00d0;
+
+}
+
+.seccion-principal{
+
+    border: 3px solid cyan;
+    display: grid;
+     grid-template-columns: 30% 70%;
+     
+ 
+}
+
+
+
+.seccion-principal aside {
+
+  border: 3px solid lime;
+  height: 400px; 
+
+}
+
+.main {
+
+    border: 3px solid blue
+  
+  }
+
+  .main header{
+    border: 3px solid orangered;
+    height: 70px; 
+
+  }
+
+  .main header section{
+    border: 3px solid violet
+
+  
+  }
