@@ -11,6 +11,18 @@
    
   }
 
+  h1 {
+    font-weight: normal;
+    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 40px;
+    margin: auto;
+    padding: 40px;
+    color: #5AD2AE;
+  }
+
+
   main {
 
     display: grid; /*para desplegar contenido como grilla*/
@@ -19,8 +31,8 @@
     border: 3px solid #C3F1FF;
     border-radius: 30px;/* redondea los bordes*/
     margin: auto;  /*centra el main*/
-    width: 300px; /* le da el ancho*/
-    height: 300px; /* le da el ancho*/
+    width: 450px; /* le da el ancho*/
+    height: 350px; /* le da el largo*/
     background: #F2FCFF; /* le da el color de fondo*/
 
   
@@ -31,23 +43,34 @@
   .formulario-login {
     display: grid; /*se despliega en forma de cuadricula o grilla*/
     grid-template-columns: 1fr;
-    grid-row-gap: 10px; /*row-gap establece el tamaño del espacio ( canal ) entre las filas de la cuadrícula de un elemento.*/
+    grid-row-gap: 15px; /*row-gap establece el tamaño del espacio ( canal ) entre las filas de la cuadrícula de un elemento.*/
     
 
   }
   
   .formulario-login input {
-    height: 30px; /*le da el largo a las cajas y botones*/
+    height: 35px; /*le da el largo a las cajas y botones*/
     border-radius: 50px;/* redondea los bordes*/
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+   
  
   }
 
 
   .formulario-login button {
-    height: 34px; /*le da el largo a las cajas y botones*/
+    height: 40px; /*le da el largo a las cajas y botones*/
+    
     border-radius: 50px;/* redondea los bordes*/
     color: #FFFFFF;
     background: lightblue;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
   }
 
 
@@ -66,9 +89,19 @@
     opacity: 1;
   }
 
-  .caja-login h1 {
-    color: #5AD2AE;
+
+
+
+
+i {
+  color: red;
+  text-align:center;
 
 }
 
+.love {
+
+  color: grey;
+  text-align:center;
+}
 
